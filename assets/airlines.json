@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Wizz Air",
+    "url": "https://wizzair.com/en-gb/information-and-services/travel-information/baggage",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wizz_Air_logo.svg/500px-Wizz_Air_logo.svg.png",
+    "options": [
+      {
+        "name": "Carry-on bag",
+        "maxWeight": 10,
+        "dimensions": {
+          "h": 40,
+          "w": 30,
+          "d": 20
+        }
+      },
+      {
+        "name": "Trolley bag",
+        "maxWeight": 10,
+        "dimensions": {
+          "h": 55,
+          "w": 40,
+          "d": 23
+        }
+      }
+    ]
+  },
+  {
+    "name": "Ryanair",
+    "url": "https://help.ryanair.com/hc/en-us/articles/360017824658-Ryanair-s-Bag-Policy",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/fr/4/44/Ryanair_logo.jpg",
+    "options": [
+      {
+        "name": "Personal Bag",
+        "maxWeight": 8,
+        "dimensions": {
+          "h": 40,
+          "w": 25,
+          "d": 20
+        }
+      },
+      {
+        "name": "Wheelie bag",
+        "maxWeight": 10,
+        "dimensions": {
+          "h": 55,
+          "w": 40,
+          "d": 20
+        }
+      }
+    ]
+  },
+  {
+    "name": "Volotea",
+    "url": "https://www.volotea.com/en/baggage/",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Volotea.svg/500px-Volotea.svg.png",
+    "options": [
+      {
+        "name": "Small Bag",
+        "maxWeight": 8,
+        "dimensions": {
+          "h": 40,
+          "w": 30,
+          "d": 20
+        }
+      },
+      {
+        "name": "Cabin bag",
+        "maxWeight": 10,
+        "dimensions": {
+          "h": 55,
+          "w": 40,
+          "d": 20
+        }
+      }
+    ]
+  },
+  {
+    "name": "Vueling",
+    "url": "https://www.vueling.com/en/vueling-services/prepare-your-trip/luggage/hand-luggage",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Logo_Vueling.svg/500px-Logo_Vueling.svg.png",
+    "options": [
+      {
+        "name": "Underseat Bag",
+        "maxWeight": 8,
+        "dimensions": {
+          "h": 40,
+          "w": 30,
+          "d": 20
+        }
+      },
+      {
+        "name": "Cabin bag",
+        "maxWeight": 10,
+        "dimensions": {
+          "h": 55,
+          "w": 40,
+          "d": 20
+        }
+      }
+    ]
+  },
+  {
+    "name": "Easyjet",
+    "url": "https://www.easyjet.com/en/help/baggage/cabin-bag-and-hold-luggage",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EasyJet_logo.svg/500px-EasyJet_logo.svg.png",
+    "options": [
+      {
+        "name": "Small Cabin Bag",
+        "maxWeight": 15,
+        "dimensions": {
+          "h": 45,
+          "w": 36,
+          "d": 20
+        }
+      },
+      {
+        "name": "Large Cabin bag",
+        "maxWeight": 15,
+        "dimensions": {
+          "h": 56,
+          "w": 45,
+          "d": 25
+        }
+      }
+    ]
+  }
+]
