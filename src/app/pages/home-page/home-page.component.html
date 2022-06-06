@@ -1,0 +1,42 @@
+<section class="section">
+    <h1 class="title has-text-centered mb-6">
+        My Cabin Bag
+    </h1>
+
+    <div class="columns inputs mb-6" [formGroup]="myDimensions">
+        <div class="column" *ngFor="let input of inputs">
+            <div class="field is-horizontal">
+                <div class="field-label is-normal is-flex-grow-0">
+                    <label class="label">{{input.name}}</label>
+                </div>
+                <div class="field-body">
+                    <div class="field">
+                        <p class="control">
+                            <input type="number" class="input" [formControl]="input.control">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns is-flex-wrap-wrap airlines">
+        <div class="column is-one-fifth" *ngFor="let option of filteredAirlinesOptions | async">
+            <div class="box has-text-centered airline">
+                <img class="img airline-logo" [src]="option.airline.logoUrl" [alt]="option.airline.name">
+
+                <h3 class="subtitle mb-2">
+                    {{option.name}}
+                </h3>
+
+                <div class="dimensions">
+                    <strong>{{option.dimensions.h}}x{{option.dimensions.w}}x{{option.dimensions.d}}</strong>
+                </div>
+
+                <div class="max-weight">
+                    <strong>{{option.maxWeight}}kg</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
