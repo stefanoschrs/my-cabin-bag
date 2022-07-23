@@ -114,11 +114,36 @@
         }
       },
       {
-        "name": "Large Cabin bag",
+        "name": "Large Cabin Bag",
         "maxWeight": 15,
         "dimensions": {
           "h": 56,
           "w": 45,
+          "d": 25
+        }
+      }
+    ]
+  },
+  {
+    "name": "Transavia",
+    "url": "https://www.transavia.com/en-NL/faq/handluggage/#id-hand-luggage---luggage-small-bags-only",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Transavia_logo.svg/500px-Transavia_logo.svg.png",
+    "options": [
+      {
+        "name": "Accessory",
+        "maxWeight": 10,
+        "dimensions": {
+          "h": 40,
+          "w": 30,
+          "d": 25
+        }
+      },
+      {
+        "name": "Hand Luggage",
+        "maxWeight": 10,
+        "dimensions": {
+          "h": 55,
+          "w": 35,
           "d": 25
         }
       }
