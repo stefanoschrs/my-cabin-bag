@@ -1,5 +1,21 @@
 [
   {
+    "name": "SKY express",
+    "url": "https://www.skyexpress.gr/en/sky-experience/before-fly/fare-types",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Sky_Express_Logo.svg/225px-Sky_Express_Logo.svg.png",
+    "options": [
+      {
+        "name": "Cabin bag",
+        "maxWeight": 8,
+        "dimensions": {
+          "h": 55,
+          "w": 40,
+          "d": 23
+        }
+      }
+    ]
+  },
+  {
     "name": "Wizz Air",
     "url": "https://wizzair.com/en-gb/information-and-services/travel-information/baggage",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wizz_Air_logo.svg/500px-Wizz_Air_logo.svg.png",
